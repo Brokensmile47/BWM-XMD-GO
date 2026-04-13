@@ -1,0 +1,1293 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/vercel/runtimes/node24/bin/node',
+1 verbose cli   '/vercel/share/v0-project/node_modules/.bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-exact',
+1 verbose cli   '--save-dev',
+1 verbose cli   '@types/react'
+1 verbose cli ]
+2 info using npm@2.15.12
+3 info using node@v24.14.1
+4 verbose install initial load of /vercel/share/v0-project/package.json
+5 warn package.json Bwmxmd@2.1.0 No repository field.
+6 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/abab/package.json
+7 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/abbrev/package.json
+8 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/abort-controller/package.json
+9 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/accepts/package.json
+10 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/acorn/package.json
+11 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/acorn-jsx/package.json
+12 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/acorn-loose/package.json
+13 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/acorn-node/package.json
+14 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/acorn-walk/package.json
+15 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/acrcloud/package.json
+16 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/adm-zip/package.json
+17 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/agent-base/package.json
+18 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/agentkeepalive/package.json
+19 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/aggregate-error/package.json
+20 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/ajv/package.json
+21 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/ajv-formats/package.json
+22 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/ansi-regex/package.json
+23 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/ansi-styles/package.json
+24 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/any-base/package.json
+25 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/api-dylux/package.json
+26 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/aproba/package.json
+27 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/aptoide-scraper/package.json
+28 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/are-we-there-yet/package.json
+29 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/argparse/package.json
+30 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/args/package.json
+31 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/aria-hidden/package.json
+32 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/array-back/package.json
+33 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/array-buffer-byte-length/package.json
+34 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/array-differ/package.json
+35 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/array-flatten/package.json
+36 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/array-union/package.json
+37 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/arrify/package.json
+38 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/asn1/package.json
+39 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/assert/package.json
+40 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/assert-plus/package.json
+41 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/async/package.json
+42 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/async-mutex/package.json
+43 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/asynckit/package.json
+44 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/atomic-sleep/package.json
+45 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/atomically/package.json
+46 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/available-typed-arrays/package.json
+47 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/awesome-phonenumber/package.json
+48 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/aws-sign2/package.json
+49 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/aws4/package.json
+50 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/axios/package.json
+51 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/balanced-match/package.json
+52 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/base64-js/package.json
+53 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/base64id/package.json
+54 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/baseline-browser-mapping/package.json
+55 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/bcrypt-pbkdf/package.json
+56 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/bindings/package.json
+57 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/bing-scraper/package.json
+58 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/bl/package.json
+59 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/bmp-js/package.json
+60 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/body-parser/package.json
+61 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/boolbase/package.json
+62 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/brace-expansion/package.json
+63 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/brotli/package.json
+64 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/bson/package.json
+65 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/buffer/package.json
+66 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/buffer-equal/package.json
+67 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/buffer-from/package.json
+68 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/bytes/package.json
+69 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/cacache/package.json
+70 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/cache-manager/package.json
+71 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/cacheable/package.json
+72 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/cacheable-lookup/package.json
+73 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/cacheable-request/package.json
+74 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/call-bind/package.json
+75 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/call-bind-apply-helpers/package.json
+76 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/call-bound/package.json
+77 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/callsites/package.json
+78 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/camelcase/package.json
+79 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/caniuse-lite/package.json
+80 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/canvacord/package.json
+81 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/caseless/package.json
+82 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/centra/package.json
+83 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/cfonts/package.json
+84 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/chalk/package.json
+85 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/chance/package.json
+86 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/char-regex/package.json
+87 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/charenc/package.json
+88 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/cheerio/package.json
+89 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/cheerio-select/package.json
+90 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/chess.js/package.json
+91 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/child_process/package.json
+92 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/chownr/package.json
+93 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/class-validator/package.json
+94 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/class-variance-authority/package.json
+95 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/clean-stack/package.json
+96 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/cli-cursor/package.json
+97 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/cli-spinners/package.json
+98 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/client-only/package.json
+99 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/cliui/package.json
+100 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/clone/package.json
+101 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/clone-response/package.json
+102 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/closure/package.json
+103 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/cloudinary/package.json
+104 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/clsx/package.json
+105 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/color/package.json
+106 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/color-convert/package.json
+107 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/color-name/package.json
+108 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/color-string/package.json
+109 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/color-support/package.json
+110 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/colorette/package.json
+111 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/colors/package.json
+112 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/combined-stream/package.json
+113 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/command-line-args/package.json
+114 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/commander/package.json
+115 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/compile-run/package.json
+116 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/complex.js/package.json
+117 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/component-emitter/package.json
+118 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/concat-map/package.json
+119 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/conf/package.json
+120 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/configstore/package.json
+121 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/console-control-strings/package.json
+122 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/content-disposition/package.json
+123 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/content-type/package.json
+124 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/cookie/package.json
+125 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/cookie-signature/package.json
+126 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/cookiejar/package.json
+127 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/core-util-is/package.json
+128 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/cors/package.json
+129 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/countries-and-timezones/package.json
+130 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/cross-spawn/package.json
+131 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/crypt/package.json
+132 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/crypto/package.json
+133 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/crypto-js/package.json
+134 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/crypto-random-string/package.json
+135 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/css-select/package.json
+136 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/css-what/package.json
+137 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/cssstyle/package.json
+138 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/curve25519-js/package.json
+139 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/d/package.json
+140 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/dashdash/package.json
+141 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/data-uri-to-buffer/package.json
+142 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/data-urls/package.json
+143 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/dateformat/package.json
+144 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/debounce-fn/package.json
+145 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/debug/package.json
+146 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/decamelize/package.json
+147 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/decimal.js/package.json
+148 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/decompress-response/package.json
+149 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/deep-equal/package.json
+150 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/deep-extend/package.json
+151 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/deep-is/package.json
+152 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/defaults/package.json
+153 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/defer-to-connect/package.json
+154 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/define-data-property/package.json
+155 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/define-properties/package.json
+156 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/define-property/package.json
+157 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/delayed-stream/package.json
+158 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/delegates/package.json
+159 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/deobfuscator/package.json
+160 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/depd/package.json
+161 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/destroy/package.json
+162 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/detect-libc/package.json
+163 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/detect-node-es/package.json
+164 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/dfa/package.json
+165 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/diff/package.json
+166 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/dijkstrajs/package.json
+167 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/discord-api-types/package.json
+168 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/discord.js/package.json
+169 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/dom-serializer/package.json
+170 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/dom-walk/package.json
+171 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/domelementtype/package.json
+172 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/domexception/package.json
+173 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/domhandler/package.json
+174 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/domutils/package.json
+175 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/dot-prop/package.json
+176 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/dotenv/package.json
+177 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/dottie/package.json
+178 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/dunder-proto/package.json
+179 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/duplexer3/package.json
+180 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/duplexify/package.json
+181 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/ecc-jsbn/package.json
+182 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/ee-first/package.json
+183 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/emoji-regex/package.json
+184 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/encodeurl/package.json
+185 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/encoding/package.json
+186 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/encoding-sniffer/package.json
+187 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/end-of-stream/package.json
+188 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/engine.io/package.json
+189 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/engine.io-parser/package.json
+190 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/entities/package.json
+191 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/env-paths/package.json
+192 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/err-code/package.json
+193 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/es-define-property/package.json
+194 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/es-errors/package.json
+195 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/es-get-iterator/package.json
+196 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/es-object-atoms/package.json
+197 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/es-set-tostringtag/package.json
+198 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/es5-ext/package.json
+199 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/es6-iterator/package.json
+200 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/es6-symbol/package.json
+201 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/es6-weak-map/package.json
+202 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/escalade/package.json
+203 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/escape-html/package.json
+204 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/escape-latex/package.json
+205 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/escape-string-regexp/package.json
+206 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/eslint/package.json
+207 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/eslint-plugin-simple-import-sort/package.json
+208 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/eslint-scope/package.json
+209 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/eslint-visitor-keys/package.json
+210 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/esniff/package.json
+211 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/espree/package.json
+212 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/esprima/package.json
+213 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/esquery/package.json
+214 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/esrecurse/package.json
+215 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/estraverse/package.json
+216 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/esutils/package.json
+217 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/etag/package.json
+218 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/event-emitter/package.json
+219 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/event-target-shim/package.json
+220 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/eventemitter3/package.json
+221 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/events/package.json
+222 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/exif-parser/package.json
+223 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/expand-template/package.json
+224 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/express/package.json
+225 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/ext/package.json
+226 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/extend/package.json
+227 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/extsprintf/package.json
+228 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/fake-useragent/package.json
+229 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/fast-deep-equal/package.json
+230 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/fast-json-stable-stringify/package.json
+231 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/fast-levenshtein/package.json
+232 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/fast-redact/package.json
+233 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/fast-safe-stringify/package.json
+234 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/fast-uri/package.json
+235 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/fdir/package.json
+236 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/fetch-blob/package.json
+237 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/ffmpeg/package.json
+238 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/fg-ig/package.json
+239 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/figlet/package.json
+240 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/file-entry-cache/package.json
+241 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/file-type/package.json
+242 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/file-uri-to-path/package.json
+243 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/file_size_url/package.json
+244 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/finalhandler/package.json
+245 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/find-replace/package.json
+246 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/find-up/package.json
+247 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/flat-cache/package.json
+248 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/flatted/package.json
+249 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/fluent-ffmpeg/package.json
+250 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/follow-redirects/package.json
+251 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/fontkit/package.json
+252 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/for-each/package.json
+253 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/forever-agent/package.json
+254 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/form-data/package.json
+255 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/form-data-encoder/package.json
+256 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/formdata-node/package.json
+257 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/formdata-polyfill/package.json
+258 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/formidable/package.json
+259 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/forwarded/package.json
+260 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/fraction.js/package.json
+261 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/fresh/package.json
+262 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/fs/package.json
+263 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/fs-constants/package.json
+264 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/fs-extra/package.json
+265 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/fs-minipass/package.json
+266 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/fs.realpath/package.json
+267 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/function-bind/package.json
+268 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/functions-have-names/package.json
+269 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/g-i-s/package.json
+270 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/gauge/package.json
+271 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/gemini-ai/package.json
+272 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/generator-function/package.json
+273 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/genius-lyrics/package.json
+274 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/get-caller-file/package.json
+275 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/get-intrinsic/package.json
+276 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/get-nonce/package.json
+277 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/get-proto/package.json
+278 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/get-stream/package.json
+279 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/getpass/package.json
+280 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/gifwrap/package.json
+281 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/gist/package.json
+282 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/github-from-package/package.json
+283 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/glob/package.json
+284 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/glob-parent/package.json
+285 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/global/package.json
+286 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/globals/package.json
+287 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/google-it/package.json
+288 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/google-play-scraper/package.json
+289 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/google-tts-api/package.json
+290 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/gopd/package.json
+291 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/got/package.json
+292 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/graceful-fs/package.json
+293 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/growl/package.json
+294 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/har-schema/package.json
+295 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/har-validator/package.json
+296 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/has-bigints/package.json
+297 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/has-flag/package.json
+298 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/has-property-descriptors/package.json
+299 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/has-symbols/package.json
+300 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/has-tostringtag/package.json
+301 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/has-unicode/package.json
+302 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/hashery/package.json
+303 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/hasown/package.json
+304 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/he/package.json
+305 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/heroku-client/package.json
+306 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/hispamemes/package.json
+307 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/hookified/package.json
+308 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/html-encoding-sniffer/package.json
+309 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/htmlparser2/package.json
+310 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/http-cache-semantics/package.json
+311 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/http-errors/package.json
+312 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/http-proxy-agent/package.json
+313 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/http-signature/package.json
+314 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/http2-wrapper/package.json
+315 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/https-proxy-agent/package.json
+316 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/human-readable/package.json
+317 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/humanize-ms/package.json
+318 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/hxz-api/package.json
+319 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/iconv-lite/package.json
+320 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/idb-keyval/package.json
+321 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/ieee754/package.json
+322 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/ignore/package.json
+323 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/image-q/package.json
+324 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/image-size/package.json
+325 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/imagemaker.js/package.json
+326 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/imgur/package.json
+327 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/import-fresh/package.json
+328 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/imurmurhash/package.json
+329 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/indent-string/package.json
+330 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/infer-owner/package.json
+331 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/inflection/package.json
+332 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/inflight/package.json
+333 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/infobox-parser/package.json
+334 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/inherits/package.json
+335 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/ini/package.json
+336 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/instagram-url-direct/package.json
+337 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/internal-slot/package.json
+338 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/inversify/package.json
+339 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/ip-address/package.json
+340 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/ip-regex/package.json
+341 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/ipaddr.js/package.json
+342 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-accessor-descriptor/package.json
+343 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-arguments/package.json
+344 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-array-buffer/package.json
+345 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-arrayish/package.json
+346 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-bigint/package.json
+347 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-boolean-object/package.json
+348 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-buffer/package.json
+349 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-callable/package.json
+350 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-data-descriptor/package.json
+351 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-date-object/package.json
+352 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-descriptor/package.json
+353 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-electron/package.json
+354 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-extglob/package.json
+355 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-fullwidth-code-point/package.json
+356 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-function/package.json
+357 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-generator-function/package.json
+358 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-glob/package.json
+359 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-interactive/package.json
+360 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-lambda/package.json
+361 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-map/package.json
+362 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-nan/package.json
+363 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-number/package.json
+364 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-number-object/package.json
+365 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-obj/package.json
+366 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-potential-custom-element-name/package.json
+367 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-promise/package.json
+368 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-regex/package.json
+369 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-retry-allowed/package.json
+370 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-set/package.json
+371 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-shared-array-buffer/package.json
+372 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-string/package.json
+373 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-symbol/package.json
+374 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-typed-array/package.json
+375 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-typedarray/package.json
+376 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-url/package.json
+377 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-weakmap/package.json
+378 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/is-weakset/package.json
+379 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/isarray/package.json
+380 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/isexe/package.json
+381 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/isstream/package.json
+382 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/jade/package.json
+383 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/javascript-natural-sort/package.json
+384 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/javascript-obfuscator/package.json
+385 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/jimp/package.json
+386 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/joycon/package.json
+387 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/jpeg-js/package.json
+388 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/js-string-escape/package.json
+389 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/js-yaml/package.json
+390 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/jsbn/package.json
+391 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/jsdom/package.json
+392 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/json-buffer/package.json
+393 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/json-schema/package.json
+394 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/json-schema-traverse/package.json
+395 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/json-schema-typed/package.json
+396 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/json-stable-stringify-without-jsonify/package.json
+397 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/json-stringify-safe/package.json
+398 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/jsonfile/package.json
+399 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/jsprim/package.json
+400 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/jsqr/package.json
+401 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/kareem/package.json
+402 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/keyv/package.json
+403 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/kind-of/package.json
+404 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/latest/package.json
+405 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/leven/package.json
+406 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/levenshtein-edit-distance/package.json
+407 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/levn/package.json
+408 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/libphonenumber/package.json
+409 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/libphonenumber-js/package.json
+410 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/libsignal/package.json
+411 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/linebreak/package.json
+412 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/link-preview-js/package.json
+413 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/load-bmfont/package.json
+414 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/locate-path/package.json
+415 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/lodash/package.json
+416 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/lodash.assignin/package.json
+417 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/lodash.bind/package.json
+418 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/lodash.camelcase/package.json
+419 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/lodash.clonedeep/package.json
+420 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/lodash.defaults/package.json
+421 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/lodash.filter/package.json
+422 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/lodash.flatten/package.json
+423 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/lodash.foreach/package.json
+424 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/lodash.map/package.json
+425 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/lodash.merge/package.json
+426 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/lodash.pick/package.json
+427 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/lodash.reduce/package.json
+428 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/lodash.reject/package.json
+429 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/lodash.some/package.json
+430 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/log-symbols/package.json
+431 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/long/package.json
+432 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/lowdb/package.json
+433 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/lowercase-keys/package.json
+434 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/lru-cache/package.json
+435 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/lru-queue/package.json
+436 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/lucide-react/package.json
+437 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/luxon/package.json
+438 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/make-dir/package.json
+439 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/make-fetch-happen/package.json
+440 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/math-intrinsics/package.json
+441 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/mathjs/package.json
+442 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/md5/package.json
+443 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/media-typer/package.json
+444 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/megajs/package.json
+445 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/memoizee/package.json
+446 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/memory-pager/package.json
+447 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/merge-descriptors/package.json
+448 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/mersenne-twister/package.json
+449 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/methods/package.json
+450 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/mime/package.json
+451 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/mime-db/package.json
+452 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/mime-types/package.json
+453 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/mimic-fn/package.json
+454 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/mimic-function/package.json
+455 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/mimic-response/package.json
+456 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/min-document/package.json
+457 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/minimatch/package.json
+458 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/minimist/package.json
+459 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/minipass/package.json
+460 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/minipass-collect/package.json
+461 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/minipass-fetch/package.json
+462 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/minipass-flush/package.json
+463 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/minipass-pipeline/package.json
+464 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/minipass-sized/package.json
+465 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/minizlib/package.json
+466 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/mkdirp/package.json
+467 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/mkdirp-classic/package.json
+468 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/mocha/package.json
+469 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/module-gatadios/package.json
+470 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/moment/package.json
+471 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/moment-duration-format/package.json
+472 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/moment-timezone/package.json
+473 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/mongodb/package.json
+474 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/mongodb-connection-string-url/package.json
+475 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/mongoose/package.json
+476 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/mpath/package.json
+477 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/mquery/package.json
+478 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/mri/package.json
+479 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/ms/package.json
+480 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/multimatch/package.json
+481 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/multistream/package.json
+482 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/mumaker/package.json
+483 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/music-lyrics/package.json
+484 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/music-metadata/package.json
+485 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/mute-stream/package.json
+486 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/nanoid/package.json
+487 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/napi-build-utils/package.json
+488 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/natural-compare/package.json
+489 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/negotiator/package.json
+490 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/next/package.json
+491 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/next-tick/package.json
+492 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/node-abi/package.json
+493 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/node-addon-api/package.json
+494 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/node-cache/package.json
+495 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/node-catbox/package.json
+496 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/node-cron/package.json
+497 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/node-domexception/package.json
+498 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/node-fetch/package.json
+499 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/node-gtts/package.json
+500 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/node-gyp/package.json
+501 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/node-html-parser/package.json
+502 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/node-id3/package.json
+503 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/node-os-utils/package.json
+504 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/node-webpmux/package.json
+505 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/nopt/package.json
+506 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/normalize-url/package.json
+507 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/npm/package.json
+508 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/npmlog/package.json
+509 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/nth-check/package.json
+510 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/nwsapi/package.json
+511 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/oauth-sign/package.json
+512 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/object-assign/package.json
+513 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/object-inspect/package.json
+514 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/object-is/package.json
+515 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/object-keys/package.json
+516 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/object.assign/package.json
+517 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/omggif/package.json
+518 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/on-exit-leak-free/package.json
+519 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/on-finished/package.json
+520 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/once/package.json
+521 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/onetime/package.json
+522 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/openai/package.json
+523 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/opencollective-postinstall/package.json
+524 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/optionator/package.json
+525 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/ora/package.json
+526 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/os/package.json
+527 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/p-cancelable/package.json
+528 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/p-limit/package.json
+529 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/p-locate/package.json
+530 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/p-map/package.json
+531 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/p-try/package.json
+532 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/pako/package.json
+533 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/parent-module/package.json
+534 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/paroles/package.json
+535 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/parse-bmfont-ascii/package.json
+536 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/parse-bmfont-binary/package.json
+537 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/parse-bmfont-xml/package.json
+538 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/parse-headers/package.json
+539 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/parse5/package.json
+540 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/parse5-htmlparser2-tree-adapter/package.json
+541 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/parse5-parser-stream/package.json
+542 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/parseurl/package.json
+543 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/pastebin-js/package.json
+544 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/path-exists/package.json
+545 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/path-is-absolute/package.json
+546 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/path-key/package.json
+547 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/path-to-regexp/package.json
+548 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/pdfkit/package.json
+549 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/peek-readable/package.json
+550 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/performance-now/package.json
+551 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/pg/package.json
+552 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/pg-cloudflare/package.json
+553 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/pg-connection-string/package.json
+554 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/pg-int8/package.json
+555 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/pg-pool/package.json
+556 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/pg-protocol/package.json
+557 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/pg-types/package.json
+558 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/pgpass/package.json
+559 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/phin/package.json
+560 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/picocolors/package.json
+561 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/picomatch/package.json
+562 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/pify/package.json
+563 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/pino/package.json
+564 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/pino-abstract-transport/package.json
+565 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/pino-pretty/package.json
+566 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/pino-std-serializers/package.json
+567 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/pixelmatch/package.json
+568 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/play-audio/package.json
+569 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/play-dl/package.json
+570 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/png-js/package.json
+571 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/pngjs/package.json
+572 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/possible-typed-array-names/package.json
+573 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/postcss/package.json
+574 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/postgres-array/package.json
+575 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/postgres-bytea/package.json
+576 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/postgres-date/package.json
+577 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/postgres-interval/package.json
+578 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/prebuild-install/package.json
+579 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/prelude-ls/package.json
+580 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/prepend-http/package.json
+581 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/process/package.json
+582 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/process-nextick-args/package.json
+583 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/process-warning/package.json
+584 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/promise-coalesce/package.json
+585 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/promise-inflight/package.json
+586 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/promise-retry/package.json
+587 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/protobufjs/package.json
+588 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/proxy-addr/package.json
+589 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/proxy-check/package.json
+590 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/proxy-from-env/package.json
+591 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/psl/package.json
+592 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/pump/package.json
+593 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/pumpify/package.json
+594 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/punycode/package.json
+595 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/q/package.json
+596 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/qified/package.json
+597 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/qrcode/package.json
+598 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/qrcode-terminal/package.json
+599 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/qs/package.json
+600 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/querystring/package.json
+601 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/querystringify/package.json
+602 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/queue/package.json
+603 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/quick-format-unescaped/package.json
+604 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/quick-lru/package.json
+605 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/ramda/package.json
+606 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/range-parser/package.json
+607 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/raw-body/package.json
+608 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/rc/package.json
+609 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/react/package.json
+610 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/react-dom/package.json
+611 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/react-remove-scroll/package.json
+612 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/react-remove-scroll-bar/package.json
+613 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/react-style-singleton/package.json
+614 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/readable-stream/package.json
+615 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/readable-web-to-node-stream/package.json
+616 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/readline/package.json
+617 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/real-require/package.json
+618 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/reflect-metadata/package.json
+619 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/regenerator-runtime/package.json
+620 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/regexp.prototype.flags/package.json
+621 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/remove.bg/package.json
+622 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/request/package.json
+623 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/require-directory/package.json
+624 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/require-from-string/package.json
+625 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/require-main-filename/package.json
+626 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/requires-port/package.json
+627 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/resolve-alpn/package.json
+628 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/resolve-from/package.json
+629 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/responselike/package.json
+630 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/restore-cursor/package.json
+631 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/restructure/package.json
+632 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/retry/package.json
+633 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/retry-as-promised/package.json
+634 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/rfdc/package.json
+635 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/rimraf/package.json
+636 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/rrweb-cssom/package.json
+637 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/safe-buffer/package.json
+638 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/safe-regex-test/package.json
+639 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/safe-stable-stringify/package.json
+640 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/safer-buffer/package.json
+641 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/sax/package.json
+642 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/saxes/package.json
+643 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/scheduler/package.json
+644 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/secure-json-parse/package.json
+645 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/seedrandom/package.json
+646 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/semver/package.json
+647 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/send/package.json
+648 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/sequelize/package.json
+649 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/sequelize-pool/package.json
+650 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/serve-static/package.json
+651 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/set-blocking/package.json
+652 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/set-function-length/package.json
+653 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/set-function-name/package.json
+654 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/setprototypeof/package.json
+655 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/shebang-command/package.json
+656 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/shebang-regex/package.json
+657 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/side-channel/package.json
+658 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/side-channel-list/package.json
+659 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/side-channel-map/package.json
+660 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/side-channel-weakmap/package.json
+661 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/sift/package.json
+662 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/sigmund/package.json
+663 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/signal-exit/package.json
+664 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/similarity/package.json
+665 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/simple-concat/package.json
+666 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/simple-get/package.json
+667 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/simple-swizzle/package.json
+668 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/smart-buffer/package.json
+669 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/socket.io/package.json
+670 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/socket.io-adapter/package.json
+671 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/socket.io-parser/package.json
+672 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/socks/package.json
+673 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/socks-proxy-agent/package.json
+674 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/songlyrics/package.json
+675 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/sonic-boom/package.json
+676 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/source-map/package.json
+677 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/source-map-js/package.json
+678 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/source-map-support/package.json
+679 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/sparse-bitfield/package.json
+680 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/split2/package.json
+681 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/sqlite3/package.json
+682 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/sshpk/package.json
+683 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/ssri/package.json
+684 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/statuses/package.json
+685 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/steno/package.json
+686 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/stop-iteration-iterator/package.json
+687 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/stream/package.json
+688 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/stream-shift/package.json
+689 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/stream-skip/package.json
+690 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/string-template/package.json
+691 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/string-width/package.json
+692 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/string_decoder/package.json
+693 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/stringz/package.json
+694 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/strip-ansi/package.json
+695 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/strip-json-comments/package.json
+696 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/strtok3/package.json
+697 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/stubborn-fs/package.json
+698 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/stubborn-utils/package.json
+699 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/styled-jsx/package.json
+700 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/superagent/package.json
+701 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/supports-color/package.json
+702 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/symbol-tree/package.json
+703 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/syntax-error/package.json
+704 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/tagged-tag/package.json
+705 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/tailwind-merge/package.json
+706 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/tailwindcss/package.json
+707 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/tailwindcss-animate/package.json
+708 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/tar/package.json
+709 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/tar-fs/package.json
+710 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/tar-stream/package.json
+711 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/tesseract.js/package.json
+712 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/tesseract.js-core/package.json
+713 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/thread-stream/package.json
+714 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/timers-ext/package.json
+715 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/timm/package.json
+716 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/tiny-emitter/package.json
+717 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/tiny-inflate/package.json
+718 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/tinycolor2/package.json
+719 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/tinyglobby/package.json
+720 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/tlds/package.json
+721 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/to-iso-string/package.json
+722 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/to-readable-stream/package.json
+723 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/toidentifier/package.json
+724 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/token-types/package.json
+725 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/toposort-class/package.json
+726 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/tough-cookie/package.json
+727 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/tr46/package.json
+728 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/translate-google-api/package.json
+729 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/translatte/package.json
+730 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/ts-api-utils/package.json
+731 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/ts-mixer/package.json
+732 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/tslib/package.json
+733 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/tunnel/package.json
+734 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/tunnel-agent/package.json
+735 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/tweetnacl/package.json
+736 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/type/package.json
+737 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/type-check/package.json
+738 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/type-fest/package.json
+739 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/type-is/package.json
+740 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/typed-function/package.json
+741 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/typescript/package.json
+742 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/typical/package.json
+743 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/uint8array-extras/package.json
+744 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/underscore/package.json
+745 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/undici/package.json
+746 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/undici-types/package.json
+747 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/unicode-properties/package.json
+748 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/unicode-trie/package.json
+749 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/unique-filename/package.json
+750 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/unique-slug/package.json
+751 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/unique-string/package.json
+752 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/unirest/package.json
+753 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/universalify/package.json
+754 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/unpipe/package.json
+755 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/uri-js/package.json
+756 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/url/package.json
+757 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/url-parse/package.json
+758 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/url-parse-lax/package.json
+759 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/url-regex-safe/package.json
+760 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/use-callback-ref/package.json
+761 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/use-sidecar/package.json
+762 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/use-sync-external-store/package.json
+763 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/utif/package.json
+764 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/util/package.json
+765 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/util-deprecate/package.json
+766 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/utils-merge/package.json
+767 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/uuid/package.json
+768 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/validator/package.json
+769 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/vary/package.json
+770 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/verror/package.json
+771 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/w3c-xmlserializer/package.json
+772 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/wa-sticker-formatter/package.json
+773 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/wasm-feature-detect/package.json
+774 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/wcwidth/package.json
+775 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/web-streams-polyfill/package.json
+776 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/webidl-conversions/package.json
+777 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/whatwg-encoding/package.json
+778 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/whatwg-mimetype/package.json
+779 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/whatwg-url/package.json
+780 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/when/package.json
+781 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/when-exit/package.json
+782 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/which/package.json
+783 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/which-boxed-primitive/package.json
+784 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/which-collection/package.json
+785 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/which-module/package.json
+786 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/which-typed-array/package.json
+787 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/wide-align/package.json
+788 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/wikipedia/package.json
+789 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/window-size/package.json
+790 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/wkx/package.json
+791 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/word-wrap/package.json
+792 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/wrap-ansi/package.json
+793 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/wrappy/package.json
+794 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/write-file-atomic/package.json
+795 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/ws/package.json
+796 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/xdg-basedir/package.json
+797 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/xhr/package.json
+798 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/xml-name-validator/package.json
+799 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/xml-parse-from-string/package.json
+800 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/xml2js/package.json
+801 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/xmlbuilder/package.json
+802 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/xmlchars/package.json
+803 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/xtend/package.json
+804 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/y18n/package.json
+805 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/yallist/package.json
+806 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/yargs/package.json
+807 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/yargs-parser/package.json
+808 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/yocto-queue/package.json
+809 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/zlibjs/package.json
+810 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/zustand/package.json
+811 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@adiwajshing/keyed-db/package.json
+812 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@babel/runtime/package.json
+813 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@discordjs/builders/package.json
+814 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@discordjs/collection/package.json
+815 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@eslint/config-array/package.json
+816 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@eslint/config-helpers/package.json
+817 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@eslint/core/package.json
+818 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@eslint/eslintrc/package.json
+819 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@eslint/js/package.json
+820 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@eslint/object-schema/package.json
+821 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@eslint/plugin-kit/package.json
+822 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@eslint-community/eslint-utils/package.json
+823 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@eslint-community/regexpp/package.json
+824 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@floating-ui/core/package.json
+825 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@floating-ui/dom/package.json
+826 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@floating-ui/react-dom/package.json
+827 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@floating-ui/utils/package.json
+828 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@gar/promisify/package.json
+829 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@hapi/boom/package.json
+830 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@hapi/hoek/package.json
+831 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@cacheable/memory/package.json
+832 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@cacheable/node-cache/package.json
+833 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@cacheable/utils/package.json
+834 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@humanfs/core/package.json
+835 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@humanfs/node/package.json
+836 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@humanwhocodes/module-importer/package.json
+837 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@humanwhocodes/retry/package.json
+838 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@img/colour/package.json
+839 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@img/sharp-libvips-linux-x64/package.json
+840 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@img/sharp-linux-x64/package.json
+841 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@inversifyjs/common/package.json
+842 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@inversifyjs/core/package.json
+843 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@inversifyjs/reflect-metadata-utils/package.json
+844 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@javascript-obfuscator/escodegen/package.json
+845 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@javascript-obfuscator/estraverse/package.json
+846 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@keyv/bigmap/package.json
+847 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@keyv/serialize/package.json
+848 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@mongodb-js/saslprep/package.json
+849 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/bmp/package.json
+850 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/core/package.json
+851 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/custom/package.json
+852 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/gif/package.json
+853 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/jpeg/package.json
+854 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/plugin-blit/package.json
+855 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/plugin-blur/package.json
+856 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/plugin-circle/package.json
+857 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/plugin-color/package.json
+858 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/plugin-contain/package.json
+859 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/plugin-cover/package.json
+860 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/plugin-crop/package.json
+861 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/plugin-displace/package.json
+862 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/plugin-dither/package.json
+863 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/plugin-fisheye/package.json
+864 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/plugin-flip/package.json
+865 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/plugin-gaussian/package.json
+866 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/plugin-invert/package.json
+867 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/plugin-mask/package.json
+868 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/plugin-normalize/package.json
+869 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/plugin-print/package.json
+870 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/plugin-resize/package.json
+871 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/plugin-rotate/package.json
+872 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/plugin-scale/package.json
+873 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/plugin-shadow/package.json
+874 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/plugin-threshold/package.json
+875 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/plugins/package.json
+876 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/png/package.json
+877 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/tiff/package.json
+878 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/types/package.json
+879 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@jimp/utils/package.json
+880 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@napi-rs/canvas/package.json
+881 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@napi-rs/canvas-linux-x64-gnu/package.json
+882 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@next/env/package.json
+883 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@next/swc-linux-x64-gnu/package.json
+884 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@npmcli/fs/package.json
+885 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@npmcli/move-file/package.json
+886 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@pinojs/redact/package.json
+887 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@protobufjs/aspromise/package.json
+888 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@protobufjs/base64/package.json
+889 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@protobufjs/codegen/package.json
+890 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@protobufjs/eventemitter/package.json
+891 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@protobufjs/fetch/package.json
+892 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@protobufjs/float/package.json
+893 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@protobufjs/inquire/package.json
+894 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@protobufjs/path/package.json
+895 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@protobufjs/pool/package.json
+896 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@protobufjs/utf8/package.json
+897 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@sapphire/async-queue/package.json
+898 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@sapphire/shapeshift/package.json
+899 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@sindresorhus/is/package.json
+900 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@skyra/gifenc/package.json
+901 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/number/package.json
+902 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/primitive/package.json
+903 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-arrow/package.json
+904 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-avatar/package.json
+905 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-collection/package.json
+906 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-compose-refs/package.json
+907 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-context/package.json
+908 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-dialog/package.json
+909 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-direction/package.json
+910 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-dismissable-layer/package.json
+911 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-focus-guards/package.json
+912 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-focus-scope/package.json
+913 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-id/package.json
+914 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-label/package.json
+915 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-popper/package.json
+916 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-portal/package.json
+917 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-presence/package.json
+918 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-primitive/package.json
+919 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-progress/package.json
+920 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-roving-focus/package.json
+921 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-select/package.json
+922 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-slot/package.json
+923 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-tabs/package.json
+924 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-use-callback-ref/package.json
+925 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-use-controllable-state/package.json
+926 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-use-effect-event/package.json
+927 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-use-escape-keydown/package.json
+928 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-use-is-hydrated/package.json
+929 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-use-layout-effect/package.json
+930 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-use-previous/package.json
+931 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-use-rect/package.json
+932 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-use-size/package.json
+933 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/react-visually-hidden/package.json
+934 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@radix-ui/rect/package.json
+935 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@socket.io/component-emitter/package.json
+936 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@swc/helpers/package.json
+937 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@szmarczak/http-timer/package.json
+938 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@tokenizer/token/package.json
+939 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@tootallnate/once/package.json
+940 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@types/cacheable-request/package.json
+941 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@types/cors/package.json
+942 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@types/debug/package.json
+943 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@types/estree/package.json
+944 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@types/http-cache-semantics/package.json
+945 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@types/json-schema/package.json
+946 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@types/keyv/package.json
+947 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@types/long/package.json
+948 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@types/minimatch/package.json
+949 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@types/ms/package.json
+950 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@types/node/package.json
+951 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@types/node-fetch/package.json
+952 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@types/responselike/package.json
+953 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@types/validator/package.json
+954 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@types/webidl-conversions/package.json
+955 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@types/whatwg-url/package.json
+956 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@types/ws/package.json
+957 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@whiskeysockets/baileys/package.json
+958 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@whiskeysockets/eslint-config/package.json
+959 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@typescript-eslint/eslint-plugin/package.json
+960 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@typescript-eslint/parser/package.json
+961 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@typescript-eslint/project-service/package.json
+962 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@typescript-eslint/scope-manager/package.json
+963 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@typescript-eslint/tsconfig-utils/package.json
+964 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@typescript-eslint/type-utils/package.json
+965 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@typescript-eslint/types/package.json
+966 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@typescript-eslint/typescript-estree/package.json
+967 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@typescript-eslint/utils/package.json
+968 verbose installManyTop reading scoped package data from /vercel/share/v0-project/node_modules/@typescript-eslint/visitor-keys/package.json
+969 info package.json client-only@0.0.1 No repository field.
+970 info package.json client-only@0.0.1 No README data
+971 info package.json dom-serializer@0.1.1 No README data
+972 info package.json jade@0.26.3 No README data
+973 info package.json jade@0.26.3 No license field.
+974 info package.json mocha@2.5.3 No README data
+975 info package.json @swc/helpers@0.3.17 No README data
+976 info package.json api-dylux@1.8.6 No repository field.
+977 info package.json assert@2.1.0 assert is also the name of a node core module.
+978 info package.json async@0.2.10 No license field.
+979 info package.json buffer@5.7.1 buffer is also the name of a node core module.
+980 info package.json cfonts@3.3.1 license should be a valid SPDX license expression
+981 info package.json child_process@1.0.2 child_process is also the name of a node core module.
+982 info package.json closure@1.0.3 No repository field.
+983 info package.json closure@1.0.3 No license field.
+984 info package.json crypto@1.0.1 crypto is also the name of a node core module.
+985 info package.json deobfuscator@2.4.5 license should be a valid SPDX license expression
+986 info package.json diff@1.4.0 No license field.
+987 info package.json dom-walk@0.1.2 No license field.
+988 info package.json events@3.3.0 events is also the name of a node core module.
+989 info package.json exif-parser@0.1.12 No license field.
+990 info package.json fs@0.0.1-security fs is also the name of a node core module.
+991 info package.json gist@0.2.0 No license field.
+992 info package.json glob@3.2.11 license should be a valid SPDX license expression
+993 info package.json ffmpeg@0.0.4 No license field.
+994 info package.json imgur@2.5.0 license should be a valid SPDX license expression
+995 info package.json is-retry-allowed@1.2.0 keywords should be an array of strings
+996 info package.json latest@0.2.0 No license field.
+997 info package.json libphonenumber@0.0.10 No license field.
+998 info package.json minipass-collect@1.0.2 No repository field.
+999 info package.json minipass-flush@1.0.7 license should be a valid SPDX license expression
+1000 info package.json minipass-pipeline@1.2.4 No repository field.
+1001 info package.json minimatch@10.2.5 license should be a valid SPDX license expression
+1002 info package.json module-gatadios@1.0.9 No repository field.
+1003 info package.json mumaker@2.0.0 No repository field.
+1004 info package.json node-webpmux@3.2.1 license should be a valid SPDX license expression
+1005 info package.json os@0.1.2 os is also the name of a node core module.
+1006 info package.json npm@2.15.12 Non-dependency in bundleDependencies: ansi-regex
+1007 info package.json npm@2.15.12 Non-dependency in bundleDependencies: imurmurhash
+1008 info package.json png-js@1.0.0 No license field.
+1009 info package.json process@0.11.10 process is also the name of a node core module.
+1010 info package.json punycode@2.3.1 punycode is also the name of a node core module.
+1011 info package.json qrcode-terminal@0.12.0 No license field.
+1012 info package.json querystring@0.2.0 querystring is also the name of a node core module.
+1013 info package.json querystring@0.2.0 No license field.
+1014 info package.json readline@1.3.0 readline is also the name of a node core module.
+1015 info package.json readline@1.3.0 license should be a valid SPDX license expression
+1016 info package.json require-from-string@2.0.2 keywords should be an array of strings
+1017 info package.json sax@1.6.0 license should be a valid SPDX license expression
+1018 info package.json stream@0.0.3 stream is also the name of a node core module.
+1019 info package.json string_decoder@1.3.0 string_decoder is also the name of a node core module.
+1020 info package.json tailwindcss-animate@1.0.7 No repository field.
+1021 info package.json url@0.11.4 url is also the name of a node core module.
+1022 info package.json util@0.12.5 util is also the name of a node core module.
+1023 info package.json @img/sharp-libvips-linux-x64@1.2.4 license should be a valid SPDX license expression
+1024 info package.json @jimp/bmp@0.16.13 No repository field.
+1025 info package.json @jimp/custom@0.16.13 No repository field.
+1026 info package.json @jimp/gif@0.16.13 No repository field.
+1027 info package.json @jimp/plugin-blit@0.16.13 No repository field.
+1028 info package.json @jimp/jpeg@0.16.13 No repository field.
+1029 info package.json @jimp/plugin-blur@0.16.13 No repository field.
+1030 info package.json @jimp/plugin-circle@0.16.13 No repository field.
+1031 info package.json @jimp/plugin-color@0.16.13 No repository field.
+1032 info package.json @jimp/plugin-contain@0.16.13 No repository field.
+1033 info package.json @jimp/plugin-cover@0.16.13 No repository field.
+1034 info package.json @jimp/plugin-displace@0.16.13 No repository field.
+1035 info package.json @jimp/plugin-dither@0.16.13 No repository field.
+1036 info package.json @jimp/plugin-crop@0.16.13 No repository field.
+1037 info package.json @jimp/plugin-fisheye@0.16.13 No repository field.
+1038 info package.json @jimp/plugin-flip@0.16.13 No repository field.
+1039 info package.json @jimp/plugin-gaussian@0.16.13 No repository field.
+1040 info package.json @jimp/plugin-invert@0.16.13 No repository field.
+1041 info package.json @jimp/plugin-mask@0.16.13 No repository field.
+1042 info package.json @jimp/plugin-normalize@0.16.13 No repository field.
+1043 info package.json @jimp/plugin-print@0.16.13 No repository field.
+1044 info package.json @jimp/plugin-rotate@0.16.13 No repository field.
+1045 info package.json @jimp/plugin-resize@0.16.13 No repository field.
+1046 info package.json @jimp/plugin-scale@0.16.13 No repository field.
+1047 info package.json @jimp/plugin-threshold@0.16.13 No repository field.
+1048 info package.json @jimp/plugins@0.16.13 No repository field.
+1049 info package.json @jimp/plugin-shadow@0.16.13 No repository field.
+1050 info package.json @jimp/png@0.16.13 No repository field.
+1051 info package.json @jimp/tiff@0.16.13 No repository field.
+1052 info package.json @jimp/types@0.16.13 No repository field.
+1053 info package.json @jimp/utils@0.16.13 No repository field.
+1054 info package.json @npmcli/fs@1.1.1 No repository field.
+1055 info package.json @whiskeysockets/eslint-config@1.0.0 No repository field.
+1056 info package.json @whiskeysockets/eslint-config@1.0.0 No license field.
+1057 verbose readDependencies loading dependencies from /vercel/share/v0-project/package.json
+1058 silly cache add args [ '@types/react', null ]
+1059 verbose cache add spec @types/react
+1060 silly cache add parsed spec Result {
+1060 silly cache add   raw: '@types/react',
+1060 silly cache add   scope: '@types',
+1060 silly cache add   name: '@types/react',
+1060 silly cache add   rawSpec: '',
+1060 silly cache add   spec: 'latest',
+1060 silly cache add   type: 'tag'
+1060 silly cache add }
+1061 silly addNamed @types/react@latest
+1062 verbose addNamed "latest" is being treated as a dist-tag for @types/react
+1063 info addNameTag [ '@types/react', 'latest' ]
+1064 silly mapToRegistry name @types/react
+1065 silly mapToRegistry scope (from package name) @types
+1066 verbose mapToRegistry no registry URL found in name for scope @types
+1067 silly mapToRegistry using default registry
+1068 silly mapToRegistry registry https://registry.npmjs.org/
+1069 silly mapToRegistry data Result {
+1069 silly mapToRegistry   raw: '@types/react',
+1069 silly mapToRegistry   scope: '@types',
+1069 silly mapToRegistry   name: '@types/react',
+1069 silly mapToRegistry   rawSpec: '',
+1069 silly mapToRegistry   spec: 'latest',
+1069 silly mapToRegistry   type: 'tag'
+1069 silly mapToRegistry }
+1070 silly mapToRegistry uri https://registry.npmjs.org/@types%2freact
+1071 verbose addNameTag registry:https://registry.npmjs.org/@types%2freact not in flight; fetching
+1072 verbose request uri https://registry.npmjs.org/@types%2freact
+1073 verbose request no auth needed
+1074 info attempt registry request try #1 at 7:56:56 AM
+1075 verbose request id 6eb4a9a18633dde3
+1076 http request GET https://registry.npmjs.org/@types%2freact
+1077 http 200 https://registry.npmjs.org/@types%2freact
+1078 verbose headers {
+1078 verbose headers   date: 'Mon, 13 Apr 2026 07:56:56 GMT',
+1078 verbose headers   'content-type': 'application/json',
+1078 verbose headers   'transfer-encoding': 'chunked',
+1078 verbose headers   connection: 'keep-alive',
+1078 verbose headers   'content-encoding': 'gzip',
+1078 verbose headers   'cf-ray': '9eb8eac6abf0f25b-CMH',
+1078 verbose headers   'cf-cache-status': 'HIT',
+1078 verbose headers   'access-control-allow-origin': '*',
+1078 verbose headers   age: '288',
+1078 verbose headers   'cache-control': 'public, max-age=300',
+1078 verbose headers   etag: 'W/"d1c7099451572d8d8618f855cd57cda2"',
+1078 verbose headers   'last-modified': 'Wed, 01 Apr 2026 17:46:28 GMT',
+1078 verbose headers   vary: 'accept-encoding, accept',
+1078 verbose headers   'set-cookie': [
+1078 verbose headers     '_cfuvid=UqL8UQwQ7ETUCHF45xrFX5eyvjPTpjTZLaUzafE7XWQ-1776067016764-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None'
+1078 verbose headers   ],
+1078 verbose headers   server: 'cloudflare'
+1078 verbose headers }
+1079 silly get cb [
+1079 silly get   200,
+1079 silly get   {
+1079 silly get     date: 'Mon, 13 Apr 2026 07:56:56 GMT',
+1079 silly get     'content-type': 'application/json',
+1079 silly get     'transfer-encoding': 'chunked',
+1079 silly get     connection: 'keep-alive',
+1079 silly get     'content-encoding': 'gzip',
+1079 silly get     'cf-ray': '9eb8eac6abf0f25b-CMH',
+1079 silly get     'cf-cache-status': 'HIT',
+1079 silly get     'access-control-allow-origin': '*',
+1079 silly get     age: '288',
+1079 silly get     'cache-control': 'public, max-age=300',
+1079 silly get     etag: 'W/"d1c7099451572d8d8618f855cd57cda2"',
+1079 silly get     'last-modified': 'Wed, 01 Apr 2026 17:46:28 GMT',
+1079 silly get     vary: 'accept-encoding, accept',
+1079 silly get     'set-cookie': [
+1079 silly get       '_cfuvid=UqL8UQwQ7ETUCHF45xrFX5eyvjPTpjTZLaUzafE7XWQ-1776067016764-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None'
+1079 silly get     ],
+1079 silly get     server: 'cloudflare'
+1079 silly get   }
+1079 silly get ]
+1080 verbose get saving @types/react to /home/vercel-sandbox/.npm/registry.npmjs.org/_40types_252freact/.cache.json
+1081 verbose correctMkdir /home/vercel-sandbox/.npm correctMkdir not in flight; initializing
+1082 silly addNameTag next cb for @types/react with tag latest
+1083 silly addNamed @types/react@19.2.14
+1084 verbose addNamed "19.2.14" is a plain semver version for @types/react
+1085 silly mapToRegistry name @types/react
+1086 silly mapToRegistry scope (from package name) @types
+1087 verbose mapToRegistry no registry URL found in name for scope @types
+1088 silly mapToRegistry using default registry
+1089 silly mapToRegistry registry https://registry.npmjs.org/
+1090 silly mapToRegistry data Result {
+1090 silly mapToRegistry   raw: '@types/react',
+1090 silly mapToRegistry   scope: '@types',
+1090 silly mapToRegistry   name: '@types/react',
+1090 silly mapToRegistry   rawSpec: '',
+1090 silly mapToRegistry   spec: 'latest',
+1090 silly mapToRegistry   type: 'tag'
+1090 silly mapToRegistry }
+1091 silly mapToRegistry uri https://registry.npmjs.org/@types%2freact
+1092 verbose addRemoteTarball https://registry.npmjs.org/@types/react/-/react-19.2.14.tgz not in flight; adding
+1093 verbose addRemoteTarball [
+1093 verbose addRemoteTarball   'https://registry.npmjs.org/@types/react/-/react-19.2.14.tgz',
+1093 verbose addRemoteTarball   '39604929b5e3957e3a6fa0001dafb17c7af70bad'
+1093 verbose addRemoteTarball ]
+1094 info retry fetch attempt 1 at 7:56:56 AM
+1095 info attempt registry request try #1 at 7:56:56 AM
+1096 http fetch GET https://registry.npmjs.org/@types/react/-/react-19.2.14.tgz
+1097 http fetch 200 https://registry.npmjs.org/@types/react/-/react-19.2.14.tgz
+1098 silly fetchAndShaCheck shasum 39604929b5e3957e3a6fa0001dafb17c7af70bad
+1099 verbose addTmpTarball /tmp/npm-535-7a928628/registry.npmjs.org/_40types/react/-/react-19.2.14.tgz not in flight; adding
+1100 verbose addTmpTarball already have metadata; skipping unpack for @types/react@19.2.14
+1101 verbose correctMkdir /home/vercel-sandbox/.npm correctMkdir not in flight; initializing
+1102 silly cache afterAdd @types/react@19.2.14
+1103 verbose afterAdd /home/vercel-sandbox/.npm/@types/react/19.2.14/package/package.json not in flight; writing
+1104 verbose correctMkdir /home/vercel-sandbox/.npm correctMkdir not in flight; initializing
+1105 verbose afterAdd /home/vercel-sandbox/.npm/@types/react/19.2.14/package/package.json written
+1106 silly install resolved [
+1106 silly install resolved   {
+1106 silly install resolved     name: '@types/react',
+1106 silly install resolved     version: '19.2.14',
+1106 silly install resolved     license: 'MIT',
+1106 silly install resolved     _id: '@types/react@19.2.14',
+1106 silly install resolved     maintainers: [ [Object] ],
+1106 silly install resolved     contributors: [
+1106 silly install resolved       [Object], [Object], [Object],
+1106 silly install resolved       [Object], [Object], [Object],
+1106 silly install resolved       [Object], [Object], [Object],
+1106 silly install resolved       [Object], [Object], [Object],
+1106 silly install resolved       [Object], [Object], [Object],
+1106 silly install resolved       [Object], [Object], [Object],
+1106 silly install resolved       [Object], [Object], [Object],
+1106 silly install resolved       [Object], [Object], [Object],
+1106 silly install resolved       [Object], [Object], [Object]
+1106 silly install resolved     ],
+1106 silly install resolved     homepage: 'https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react',
+1106 silly install resolved     dist: {
+1106 silly install resolved       shasum: '39604929b5e3957e3a6fa0001dafb17c7af70bad',
+1106 silly install resolved       tarball: 'https://registry.npmjs.org/@types/react/-/react-19.2.14.tgz',
+1106 silly install resolved       fileCount: 18,
+1106 silly install resolved       integrity: 'sha512-ilcTH/UniCkMdtexkoCN0bI7pMcJDvmQFPvuPvmEaYA/NSfFTAgdUSLAoVjaRJm7+6PvcM+q1zYOwS4wTYMF9w==',
+1106 silly install resolved       signatures: [Array],
+1106 silly install resolved       unpackedSize: 410399
+1106 silly install resolved     },
+1106 silly install resolved     main: '',
+1106 silly install resolved     types: 'index.d.ts',
+1106 silly install resolved     exports: {
+1106 silly install resolved       '.': [Object],
+1106 silly install resolved       './canary': [Object],
+1106 silly install resolved       './jsx-runtime': [Object],
+1106 silly install resolved       './experimental': [Object],
+1106 silly install resolved       './package.json': './package.json',
+1106 silly install resolved       './jsx-dev-runtime': [Object],
+1106 silly install resolved       './compiler-runtime': [Object]
+1106 silly install resolved     },
+1106 silly install resolved     scripts: {},
+1106 silly install resolved     _npmUser: { name: 'types', email: 'ts-npm-types@microsoft.com' },
+1106 silly install resolved     repository: {
+1106 silly install resolved       url: 'https://github.com/DefinitelyTyped/DefinitelyTyped.git',
+1106 silly install resolved       type: 'git',
+1106 silly install resolved       directory: 'types/react'
+1106 silly install resolved     },
+1106 silly install resolved     description: 'TypeScript definitions for react',
+1106 silly install resolved     directories: {},
+1106 silly install resolved     _nodeVersion: '24.13.0',
+1106 silly install resolved     dependencies: { csstype: '^3.2.2' },
+1106 silly install resolved     typesVersions: { '<=5.0': [Object] },
+1106 silly install resolved     _hasShrinkwrap: false,
+1106 silly install resolved     peerDependencies: {},
+1106 silly install resolved     typeScriptVersion: '5.2',
+1106 silly install resolved     _npmOperationalInternal: {
+1106 silly install resolved       tmp: 'tmp/react_19.2.14_1770810298354_0.5585046111602676',
+1106 silly install resolved       host: 's3://npm-registry-packages-npm-production'
+1106 silly install resolved     },
+1106 silly install resolved     typesPublisherContentHash: 'daae8d23e06b3d45da3803abb3f0bad661cffb4c40282d6886d8dfde7d5eea01',
+1106 silly install resolved     _shasum: '39604929b5e3957e3a6fa0001dafb17c7af70bad',
+1106 silly install resolved     _resolved: 'https://registry.npmjs.org/@types/react/-/react-19.2.14.tgz',
+1106 silly install resolved     _from: '@types/react@latest'
+1106 silly install resolved   }
+1106 silly install resolved ]
+1107 info install @types/react@19.2.14 into /vercel/share/v0-project
+1108 info installOne @types/react@19.2.14
+1109 verbose installOne of @types/react to /vercel/share/v0-project not in flight; installing
+1110 verbose correctMkdir /home/vercel-sandbox/.npm/_locks correctMkdir not in flight; initializing
+1111 verbose makeDirectory /home/vercel-sandbox/.npm/_locks creation not in flight; initializing
+1112 silly makeDirectory /home/vercel-sandbox/.npm/_locks uid: 1000 gid: 1000
+1113 verbose lock using /home/vercel-sandbox/.npm/_locks/types-react-9d2bf91148cb3d6b.lock for /vercel/share/v0-project/node_modules/@types/react
+1114 silly install write writing @types/react 19.2.14 to /vercel/share/v0-project/node_modules/@types/react
+1115 verbose unbuild node_modules/@types/react
+1116 silly gentlyRm /vercel/share/v0-project/node_modules/@types/react is being purged from base /vercel/share/v0-project
+1117 verbose gentlyRm don't care about contents; nuking /vercel/share/v0-project/node_modules/@types/react
+1118 verbose tar unpack /home/vercel-sandbox/.npm/@types/react/19.2.14/package.tgz
+1119 verbose tar unpacking to /vercel/share/v0-project/node_modules/@types/react
+1120 silly gentlyRm /vercel/share/v0-project/node_modules/@types/react is being purged
+1121 verbose gentlyRm don't care about contents; nuking /vercel/share/v0-project/node_modules/@types/react
+1122 silly gunzTarPerm modes [ '755', '644' ]
+1123 silly gunzTarPerm extractEntry
+1124 silly gunzTarPerm extractEntry
+1125 silly gunzTarPerm extractEntry
+1126 silly gunzTarPerm extractEntry
+1127 silly gunzTarPerm extractEntry
+1128 silly gunzTarPerm extractEntry
+1129 silly gunzTarPerm extractEntry
+1130 silly gunzTarPerm extractEntry
+1131 silly gunzTarPerm extractEntry
+1132 silly gunzTarPerm extractEntry
+1133 silly gunzTarPerm extractEntry
+1134 silly gunzTarPerm extractEntry
+1135 silly gunzTarPerm extractEntry
+1136 silly gunzTarPerm extractEntry
+1137 silly gunzTarPerm extractEntry
+1138 silly gunzTarPerm extractEntry
+1139 silly gunzTarPerm extractEntry
+1140 silly gunzTarPerm extractEntry
+1141 verbose unlock done using /home/vercel-sandbox/.npm/_locks/types-react-9d2bf91148cb3d6b.lock for /vercel/share/v0-project/node_modules/@types/react
+1142 verbose stack Error: ENOTDIR: not a directory, open '/vercel/share/v0-project/node_modules/@types/react/package.json'
+1143 verbose cwd /vercel/share/v0-project
+1144 error Linux 5.10.174
+1145 error argv "/vercel/runtimes/node24/bin/node" "/vercel/share/v0-project/node_modules/.bin/npm" "install" "--save-exact" "--save-dev" "@types/react"
+1146 error node v24.14.1
+1147 error npm  v2.15.12
+1148 error path /vercel/share/v0-project/node_modules/@types/react/package.json
+1149 error code ENOTDIR
+1150 error errno -20
+1151 error syscall open
+1152 error ENOTDIR: not a directory, open '/vercel/share/v0-project/node_modules/@types/react/package.json'
+1153 error If you need help, you may report this error at:
+1153 error     <https://github.com/npm/npm/issues>
+1154 verbose exit [ -20, true ]
+1155 verbose unbuild node_modules/@types/react
+1156 silly gentlyRm /vercel/share/v0-project/node_modules/@types/react is being purged from base /vercel/share/v0-project
+1157 verbose gentlyRm don't care about contents; nuking /vercel/share/v0-project/node_modules/@types/react
+1158 silly vacuum-fs purging /vercel/share/v0-project/node_modules/@types/react
+1159 silly vacuum-fs quitting because other entries in /vercel/share/v0-project/node_modules/@types
